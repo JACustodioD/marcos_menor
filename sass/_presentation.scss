@@ -1,0 +1,24 @@
+#presentation{
+    font-family: $font-text;    
+    background-image: url("#{$backgroundPresentation}");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.card {
+    background-color: rgba($primary-color, 0.9);
+    color: white;
+    height: 430px;
+    font-size: large;
+
+}
+
+.card h3{
+    font-family: $font-title;
+}
+.card-footer {
+    background-color: transparent;
+    border: 0 solid transparent;
+}

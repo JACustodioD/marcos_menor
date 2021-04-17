@@ -1,0 +1,97 @@
+body {
+  background-color: #191919;
+  font-family: "lato";
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "impact";
+}
+
+hr {
+  background-color: white;
+  border: 2px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-motivation h3 {
+  margin-top: 170px;
+}
+
+.contact-content {
+  margin-top: 170px;
+}
+
+.link-jacustodiod {
+  color: gray;
+}
+
+.link-jacustodiod:hover {
+  color: aquamarine;
+}
+
+@media (max-width: 972px) {
+  .text-motivation h3 {
+    margin-top: 10px;
+  }
+  .contact-content {
+    margin-top: 40px;
+  }
+  .img-form {
+    display: none;
+  }
+}
+
+nav {
+  background-color: #191919;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+span a {
+  color: white;
+  font-size: large;
+  margin-right: 10px;
+}
+
+span a:hover, nav a:hover {
+  color: azure;
+}
+
+.navbar-icon {
+  font-size: larger;
+  color: azure;
+}
+
+#presentation {
+  font-family: "lato";
+  background-image: url("../img/fondo.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.card {
+  background-color: rgba(25, 25, 25, 0.9);
+  color: white;
+  height: 430px;
+  font-size: large;
+}
+
+.card h3 {
+  font-family: "impact";
+}
+
+.card-footer {
+  background-color: transparent;
+  border: 0 solid transparent;
+}
+/*# sourceMappingURL=style.css.map */

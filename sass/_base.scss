@@ -1,0 +1,51 @@
+body{
+    background-color: $primary-color;
+    font-family: $font-text;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-title;
+}
+
+hr {
+    background-color: white;
+    border: 2px solid white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.text-motivation h3{
+    margin-top: 170px;
+}
+
+
+.contact-content{
+    margin-top: 170px;
+}
+
+.link-jacustodiod{
+    color: gray;
+}
+.link-jacustodiod:hover {
+    color: aquamarine;
+}
+
+@media(max-width: 972px){
+
+    .text-motivation h3{
+        margin-top: 10px;
+    }
+        
+    .contact-content{
+        margin-top: 40px;
+    }
+    .img-form{
+        display: none;
+    }
+
+}

@@ -1,0 +1,22 @@
+nav{
+    background-color: $primary-color;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+span a {
+    color: white;
+    font-size: large;
+    margin-right: 10px;
+}
+span a:hover, nav a:hover {
+    color: azure;
+}
+.navbar-icon{
+    font-size: larger;
+    color: azure;
+}
