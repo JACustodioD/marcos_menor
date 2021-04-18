@@ -21,3 +21,14 @@
     background-color: transparent;
     border: 0 solid transparent;
 }
+
+
+@media(max-width: 972px){
+    #presentation{
+        height: 650px;
+    }
+    
+    .card {
+        height: 510px;
+    }
+}
