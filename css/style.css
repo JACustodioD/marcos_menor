@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-.text-motivation h3 {
+.text-motivation h3, .text-404 h2 {
   margin-top: 170px;
 }
 
@@ -34,7 +34,7 @@ a {
 }
 
 @media (max-width: 972px) {
-  .text-motivation h3 {
+  .text-motivation h3, .text-404 h2 {
     margin-top: 10px;
   }
   .contact-content {
@@ -71,7 +71,6 @@ span a:hover, nav a:hover {
 }
 
 #presentation {
-  font-family: "lato";
   background-image: url("../img/fondo.png");
   background-position: center;
   background-size: cover;
